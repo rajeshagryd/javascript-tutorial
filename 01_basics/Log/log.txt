@@ -1,0 +1,21 @@
+A new movie document with name 'Game of Thrones' has been added.
+A new movie document with name 'Vikings' has been added on 25/1/2024.
+A new movie document with name 'Gotham' has been added on 25/1/2024.
+A new movie document with name 'Power' has been added on 25/1/2024.
+Query took 82 milliseconds to fetch the documents
+Query took 36 milliseconds to fetch the documents
+Query took 18 milliseconds to fetch the documents
+Query took 45 milliseconds to fetch the documents
+Query took 7 milliseconds to fetch the documents
+Query took 15 milliseconds to fetch the documents
+Query took 3 milliseconds to fetch the documents
+Query took 32 milliseconds to fetch the documents
+Query took 26 milliseconds to fetch the documents
+Query took 18 milliseconds to fetch the documents
+Query took 23 milliseconds to fetch the documents
+Query took 28 milliseconds to fetch the documents
+Query took 18 milliseconds to fetch the documents
+Query took 175 milliseconds to fetch the documents
+Query took 21 milliseconds to fetch the documents
+Query took 85 milliseconds to fetch the documents
+Query took 32 milliseconds to fetch the documents

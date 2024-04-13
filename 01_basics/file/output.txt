@@ -1,0 +1,1 @@
+Write Data from input file: Reading & Writing files synchronously | Fundamentals of NODE JS 

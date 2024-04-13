@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#boxOne{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+#card{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card .userName{
+    font-size: 25px;
+    margin: 10px 0;
+    color: #04114d;
+}
+#card .istatus{
+    font-size: 25px;
+    color: red;
+    margin-bottom: 20px;
+}
+#card button{
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+#card #remove{
+    background-color: #dadada;
+    color: #111;
+}
+
+#card i{
+    color: #ffffff;
+    font-size: 70px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.4s;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.cursor{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2;
+    mix-blend-mode: difference;
+}
+.bigFont{
+    font-size: 8vw;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: initial;
+}
+#boxTwo{
+    height: 100%;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+    background-color: #570303;
+    position: absolute;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.elem .elemTitle{
+    font-size: 6vw;
+    mix-blend-mode: difference;
+    z-index: 9;
+    position: relative;
+    /* color: #111; */
+}
+.elem .elemImage{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+#instaCard{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #2c84f8;
+    margin-left: 8px;
+}
+#storiya{
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    padding: 10px;
+    white-space: nowrap;
+}
+#storiya::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 70px;
+    width: 70px;
+    background-color: #111;
+    border-radius: 50%;
+    background: linear-gradient(rgb(150, 103, 2), orange, rgb(231, 25, 59), rgb(97, 1, 97), blue);
+    padding: 2px;
+    overflow: hidden;
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 3px;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.full-screen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
